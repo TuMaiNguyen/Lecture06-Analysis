@@ -1,79 +1,76 @@
-# 💻 Lecture 06 – Requirements Analysis  
+# 💻 Lecture 06 – Requirements Analysis
 **Trường:** Học viện Công nghệ Bưu chính Viễn thông (PTIT)  
 **Môn học:** Nhập môn Công nghệ Phần mềm  
-**Sinh viên thực hiện:** Nguyễn Đỗ Tú Mai – N23DCPT091  
-**Lớp:** D23CQPTTK01-N  
+**Sinh viên:** **Nguyễn Đỗ Tú Mai – N23DCPT091**  
+**Lớp:** **D23CQPTTK01-N**
 
 ---
 
-## 📘 I. Giới thiệu
-Bộ bài tập tổng hợp **Chương 6 – Phân tích yêu cầu phần mềm (Requirements Analysis)**,  
-bao gồm phần **lý thuyết củng cố** và **bài tập UML thực hành**.
-
-**Nội dung chính:**
-- Câu hỏi trắc nghiệm, câu hỏi ngắn, thảo luận nhóm và tình huống  
-- Thực hành UML: Use Case, Class, Sequence, Communication, ERD  
-- Bài thực hành Java, test case, cơ sở dữ liệu chuẩn hóa  
+## 📘 Giới thiệu
+Bộ bài tập tổng hợp **Chương 6 – Phân tích yêu cầu phần mềm** gồm:
+- Hệ thống câu hỏi lý thuyết, tình huống, thảo luận nhóm  
+- Thực hành UML (Use Case, Class, Sequence, Communication, ERD)  
+- Bài tập thực hành Java, Test case, và thiết kế cơ sở dữ liệu chuẩn hóa (3NF)
 
 ---
 
-## 🧩 II. Liên kết tệp và hình ảnh UML
+## 🧩 II. Liên kết và hình UML (hiển thị trực tiếp)
 
-### 🧱 1️⃣ Class Diagram – Hệ thống Quản lý Thư viện  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Class%20Diagram%20h%E1%BB%87%20th%E1%BB%91ng%20Qu%E1%BA%A3n%20l%C3%BD%20Th%C6%B0%20vi%E1%BB%87n%20c%C3%A2u%201-3.png?raw=true)  
-![Class Diagram](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Class%20Diagram%20h%E1%BB%87%20th%E1%BB%91ng%20Qu%E1%BA%A3n%20l%C3%BD%20Th%C6%B0%20vi%E1%BB%87n%20c%C3%A2u%201-3.png?raw=true)
-
----
-
-### 🔁 2️⃣ Sequence Diagram – Đăng nhập hệ thống  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Sequence%20Diagram%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20h%E1%BB%87%20th%E1%BB%91ng%20c%C3%A2u%206.png?raw=true)  
-![Sequence Diagram – Login](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Sequence%20Diagram%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20h%E1%BB%87%20th%E1%BB%91ng%20c%C3%A2u%206.png?raw=true)
+### 🧱 1️⃣ Class Diagram – Hệ thống Quản lý Thư viện
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/ClassDiagramh%E1%BB%87th%E1%BB%91ngQu%E1%BA%A3nl%C3%BDTh%C6%B0vi%E1%BB%87nc%C3%A2u2.png)  
+![Class Diagram](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/ClassDiagramh%E1%BB%87th%E1%BB%91ngQu%E1%BA%A3nl%C3%BDTh%C6%B0vi%E1%BB%87nc%C3%A2u2.png)
 
 ---
 
-### 🛍️ 3️⃣ Sequence Diagram – Thanh toán đơn hàng (E-Commerce)  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Sequence%20Diagram%20thanh%20to%C3%A1n%20%C4%91%C6%A1n%20h%C3%A0ng%20c%C3%A2u%208.png?raw=true)  
-![Sequence Diagram – Payment](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Sequence%20Diagram%20thanh%20to%C3%A1n%20%C4%91%C6%A1n%20h%C3%A0ng%20c%C3%A2u%208.png?raw=true)
+### 🔐 2️⃣ Sequence Diagram – Đăng nhập hệ thống
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/SequenceDiagram%C4%91%C4%83ngnh%E1%BA%ADph%E1%BB%87th%E1%BB%91ngc%C3%A2u6.png)  
+![Sequence Diagram – Login](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/SequenceDiagram%C4%91%C4%83ngnh%E1%BA%ADph%E1%BB%87th%E1%BB%91ngc%C3%A2u6.png)
 
 ---
 
-### ✈️ 4️⃣ Sequence Diagram – Đặt vé máy bay khứ hồi  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Sequence%20Diagram%20%C4%91%E1%BA%B7t%20v%C3%A9%20m%C3%A1y%20bay%20kh%E1%BB%A9%20h%E1%BB%93i%20c%C3%A2u%208-10.png?raw=true)  
-![Sequence Diagram – Flight Booking](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Sequence%20Diagram%20%C4%91%E1%BA%B7t%20v%C3%A9%20m%C3%A1y%20bay%20kh%E1%BB%A9%20h%E1%BB%93i%20c%C3%A2u%208-10.png?raw=true)
+### 💳 3️⃣ Sequence Diagram – Thanh toán đơn hàng
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/SequenceDiagramthanhto%C3%A1n%C4%91%C6%A1nh%C3%A0ngc%C3%A2u8.png)  
+![Sequence Diagram – Payment](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/SequenceDiagramthanhto%C3%A1n%C4%91%C6%A1nh%C3%A0ngc%C3%A2u8.png)
 
 ---
 
-### 💬 5️⃣ Communication Diagram – Thanh toán đơn hàng  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Communication%20Diagram%20thanh%20to%C3%A1n%20%C4%91%C6%A1n%20h%C3%A0ng%20c%C3%A2u%208.png?raw=true)  
-![Communication Diagram](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/Communication%20Diagram%20thanh%20to%C3%A1n%20%C4%91%C6%A1n%20h%C3%A0ng%20c%C3%A2u%208.png?raw=true)
+### ✈️ 4️⃣ Sequence Diagram – Đặt vé máy bay khứ hồi
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/SequenceDiagram%C4%91%E1%BA%B7tv%C3%A9m%C3%A1ybaykh%E1%BB%A9h%E1%BB%93ic%C3%A2u10.png)  
+![Sequence Diagram – Flight Booking](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/SequenceDiagram%C4%91%E1%BA%B7tv%C3%A9m%C3%A1ybaykh%E1%BB%A9h%E1%BB%93ic%C3%A2u10.png)
 
 ---
 
-### 🏥 6️⃣ ERD – Hệ thống Quản lý Bệnh viện  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/ERD%20h%E1%BB%87%20th%E1%BB%91ng%20qu%E1%BA%A3n%20l%C3%AD%20b%E1%BB%87nh%20vi%E1%BB%87n%20c%C3%A2u%209.png?raw=true)  
-![ERD Diagram](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/ERD%20h%E1%BB%87%20th%E1%BB%91ng%20qu%E1%BA%A3n%20l%C3%AD%20b%E1%BB%87nh%20vi%E1%BB%87n%20c%C3%A2u%209.png?raw=true)
+### 💬 5️⃣ Communication Diagram – Thanh toán đơn hàng
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/CommunicationDiagramthanhto%C3%A1n%C4%91%C6%A1nh%C3%A0ngc%C3%A2u8.png)  
+![Communication Diagram](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/CommunicationDiagramthanhto%C3%A1n%C4%91%C6%A1nh%C3%A0ngc%C3%A2u8.png)
 
 ---
 
-### 🎟️ 7️⃣ Use Case Diagram – Đặt vé máy bay  
-📘 [Xem trực tiếp tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/usecasediagram%20%C4%91%E1%BA%B7t%20v%C3%A9%20c%C3%A2u%2010.png?raw=true)  
-![Use Case Diagram](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/usecasediagram%20%C4%91%E1%BA%B7t%20v%C3%A9%20c%C3%A2u%2010.png?raw=true)
+### 🏥 6️⃣ ERD – Hệ thống Quản lý Bệnh viện
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/ERDh%E1%BB%87th%E1%BB%91ngqu%E1%BA%A3nl%C3%ADb%E1%BB%87nhvi%E1%BB%87nc%C3%A2u9.png)  
+![ERD Diagram](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/ERDh%E1%BB%87th%E1%BB%91ngqu%E1%BA%A3nl%C3%ADb%E1%BB%87nhvi%E1%BB%87nc%C3%A2u9.png)
 
 ---
 
-### 📄 8️⃣ File Word – Tổng hợp bài làm  
-👉 [Tải xuống tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/NGUY%E1%BB%84N%20%C4%90%E1%BB%96%20T%C3%9A%20MAI-N23DCPT091-LECTURE6_ANALYSIS.docx)
+### 🎟️ 7️⃣ Use Case Diagram – Đặt vé máy bay
+[📎 Xem ảnh tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/usecasediagram%C4%91%E1%BA%B7tv%C3%A9c%C3%A2u10.png)  
+![Use Case Diagram](https://raw.githubusercontent.com/TuMaiNguyen/Lecture06-Analysis/main/usecasediagram%C4%91%E1%BA%B7tv%C3%A9c%C3%A2u10.png)
+
+---
+
+### 📄 8️⃣ File Word – Bài làm đầy đủ
+📘 [Tải file Word tại đây](https://github.com/TuMaiNguyen/Lecture06-Analysis/blob/main/NGUY%E1%BB%84N%20%C4%90%E1%BB%96%20T%C3%9A%20MAI-N23DCPT091-LECTURE6_ANALYSIS.docx)
 
 ---
 
 ## ⚙️ Công cụ sử dụng
-- **PlantUML / Draw.io / StarUML** – Dựng sơ đồ UML  
-- **Visual Studio Code / Word** – Viết & biên soạn nội dung  
-- **GitHub** – Lưu trữ và chia sẻ bài nộp  
+- **PlantUML**, **StarUML**, **Draw.io** – Vẽ và xuất sơ đồ  
+- **Visual Studio Code**, **Word** – Soạn và tổng hợp bài  
+- **GitHub** – Lưu trữ, quản lý và chia sẻ bài làm  
 
 ---
 
-## ✨ Thông tin sinh viên
+## 👩‍🎓 Thông tin sinh viên
 - **Họ và tên:** Nguyễn Đỗ Tú Mai  
 - **Mã sinh viên:** N23DCPT091  
 - **Lớp:** D23CQPTTK01-N  
